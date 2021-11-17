@@ -82,10 +82,26 @@
     echo "La suma de X+Y+N+M es: ".$x+$y+$n+$m;
     echo "<br>";
     echo "El producto de X*Y*N*M es: ".$x*$y*$n*$m;
+    echo "<br>";
+    echo "<hr>";
 
+    #ejercicio 5niv1
 
+    $array_int1= array(2, 4, 6, 7, 8);
+    $array_int2= array(7, 34, 21);
 
+    array_push($array_int2, 26);
 
+    $mezcla_array= array_merge($array_int1, $array_int2);
+    print_r($mezcla_array);
+    echo "<br>";
+    echo "<br>";
+    //otra forma imprimir con el foreach
+
+    foreach($mezcla_array as $result){
+        echo $result;
+        echo "<br>";
+    }
  ?> 
   
  </body>
