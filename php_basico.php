@@ -18,7 +18,7 @@
     echo "<br>";
     echo "<hr>";
 
-    #ejercicio 2niv1
+    //ejercicio 2niv1
 
     $cadena_texto= "Hello world!";
 
@@ -36,14 +36,14 @@
     echo "<br>";
     echo "<hr>";
     
-    #ejercicio 3niv1
+    //ejercicio 3niv1
 
-    define("NombreAlumno","Stefano");
-    echo "<h1>".NombreAlumno."</h1>";
+    define("NOMBRE_ALUMNO","Stefano");
+    echo "<h1>".NOMBRE_ALUMNO."</h1>";
     echo "<br>";
     echo "<hr>";
 
-    #ejercicio 4niv1
+    //ejercicio 4niv1
 
     $x= 15;
     $y= 23;
@@ -85,7 +85,7 @@
     echo "<br>";
     echo "<hr>";
 
-    #ejercicio 5niv1
+    //ejercicio 5niv1
 
     $array_int1= array(2, 4, 6, 7, 8);
     $array_int2= array(7, 34, 21);
@@ -102,8 +102,18 @@
         echo $result;
         echo "<br>";
     }
+    echo "<br/>";
+   
+
+    echo "El arrayList contiene ".$lenght_array=count($mezcla_array)." elementos.";
+
+    echo "<br/>";
+    echo "<hr/>";
+
+    
+
  ?> 
-  
+
  </body>
  </html>
  
